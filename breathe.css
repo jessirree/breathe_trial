@@ -1,0 +1,159 @@
+body{
+    background-image: url('mental\ health5.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    backdrop-filter: blur(3px);
+    margin-top: 25px;
+    font-family: cursive;
+}
+.topbar{
+    margin-left: 10px;
+    width: 1500px;
+    height: 80px;
+    background: radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+}
+nav{
+    display: flex;
+    padding: 12px 5%;
+}
+.logo{
+    margin-top: 5px;
+    color: cadetblue;
+    font-size: 35px;
+    float: left;
+    cursor: pointer;
+}
+.logo span{
+    color: chocolate;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+nav ul li a:hover{
+    color: chocolate;
+}
+.main{
+    display: flex;
+    margin: 20px;
+}
+.content{
+    background-image: url('mental\ health5.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 1100px;
+    height: 600px;
+    background: radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 0 0 10px black;
+    padding-left: 52px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+button{
+   width: 100px;
+   height: 40px;
+   background: chocolate;
+   border: chocolate 2px;
+   margin-top: 13px;
+   color: white;
+   font-size: 15px;
+   border-bottom-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   transition: 0.2s ease;
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    background-color: cadetblue;
+}
+.srch:focus{
+    outline: none;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: cursive;
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(grey);
+    border: cadetblue 1px;
+    margin-top: 13px;
+    color: chocolate;
+    border-right: none;
+    font-size: 20px;
+    float: left;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.cont{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:black;
+    position: relative;
+}
+.cont .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: cursive;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font: bold;
+    font-size: 30px;
+}
+.cont h1{
+    font-family: cursive;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.cont .cn{
+    width: 160px;
+    height: 40px;
+    background: chocolate;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cont a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.cn:hover{
+    background: cadetblue;
+}
+.cont span{
+    color: chocolate;
+    font-size: 50px;
+}
+.socials{
+    float: right;
+    font-size: 30px;
+}
